@@ -32,9 +32,7 @@ public class Produto implements Serializable{
 	)
 	private List<Categoria> categorias = new ArrayList<>();
 	
-	public Produto() {
-		super();
-	}
+	public Produto() {}
 	
 	public Produto(Integer id, String nome, Double preco) {
 		super();
