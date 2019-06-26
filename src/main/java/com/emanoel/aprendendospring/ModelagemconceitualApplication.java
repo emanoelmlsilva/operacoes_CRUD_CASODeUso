@@ -82,6 +82,7 @@ public class ModelagemconceitualApplication implements CommandLineRunner{
 		
 		
 		Cliente cli1 = new Cliente(null,"Maria Silva","maria@gmail.com","36378912377",TipoCliente.PESSOAFISICA);
+		
 		cli1.getTelefones().addAll(Arrays.asList("27363323","93838393"));
 		
 
