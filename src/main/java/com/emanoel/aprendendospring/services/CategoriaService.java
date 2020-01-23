@@ -31,4 +31,9 @@ public class CategoriaService {
 		find(obj.getId());//verificar se o objeto passado existe
 		return repo.save(obj);//serve tanto para atualizar quanto para inserir, quando o id or nulo inseri, senão atualiza
 	}
+	
+	public void delete(Integer id) {
+		find(id);
+		repo.deleteById(id);
+	}
 }
